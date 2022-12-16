@@ -1,0 +1,172 @@
+@charset "utf-8";
+@import "base.css";
+@import "styles.css";
+/*
+Author: Omar Ahmed*/
+
+body, html {height: 100%;}
+
+/*heading styles*/
+h1 {
+    
+    width: 50%;
+    padding: 20px;
+    margin-left: auto;
+    margin-right:auto;
+    margin-top:0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    font-size:150px;
+    color:white;
+    
+}
+
+/*text box*/
+#skills{
+    display:flex;
+    margin-top:0;
+    width: 24px;
+    padding: 0;
+    align-items:center;
+    text-align:center;
+    
+  }
+/*intro*/
+  #intro { 
+    display:flex;
+    width:1080px;
+    padding-bottom:250px;
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:7%;
+    align-items:center;
+  
+    
+  }
+
+
+.containertext{ 
+  padding-top:50px;
+  background-color:black;
+  color:white;
+  width:100%;
+  height:200px; 
+  float:right;
+  padding-bottom:200px;
+  margin-left:auto;
+  margin-top:5em;
+  text-align:center;
+  
+}
+
+
+ /*nav style*/
+ nav ul {
+    
+    display:flex;
+    flex-wrap:wrap;
+    align-items:stretch;
+    justify-content: space-evenly;
+    list-style-type: none;
+    overflow: hidden;
+    padding:0;
+    margin-left:20em;
+    margin-right:20em;
+    margin-top:0;
+    background-color: #772727;
+  
+  }
+
+ 
+
+li a {
+    width:150px;
+    display:block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+li a:hover {
+    background-color: #f0aeae;
+  }
+
+.btn { 
+  background-color:lightcoral;
+  display:block;
+  margin-top:20px;
+  margin-left:45%;
+  float:left;
+
+  
+}
+
+/*form container*/
+  .containerform {
+    width: 40%;
+    padding: 50px;
+    margin-top:10px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:5px;
+    padding: 20px;
+}
+
+.item1 { grid-area: item1; }
+.item2 {grid-area: item2; }
+.item3 {grid-area: item3;}
+.btn {grid-area: btn;}
+
+
+
+.tbackground { 
+  display:grid;
+  justify-content:center;
+  margin-top:100px;
+  grid-template-areas:'item3 btn'
+                      'item1 btn'
+                      'item2 btn';
+                      
+  padding:10px;
+
+
+
+}
+.pfp { 
+  display:flex;
+  overflow:hidden;
+  max-width:200px;
+  height:200px;
+  border-radius:60px;
+  
+}
+
+/*desktop style*/
+.sbackground { 
+
+  height:100%;
+}
+
+.item7 { grid-area: item7; }
+.item8 {grid-area: item8; }
+.item9 {grid-area: item9;}
+.item10 {grid-area: item10;}
+
+.item10 { 
+  margin-top:280px;
+}
+.fgrid { 
+  display:grid;
+  justify-content:center;
+  margin-top:50px;
+  grid-template-areas:'item8 item10'
+                      'item7 item10'
+                      'item9 item10';
+                      
+  grid-column-gap:5px;
+  gap:20px;
+
+}
+
+
